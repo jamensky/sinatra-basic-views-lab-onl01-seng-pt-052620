@@ -8,9 +8,11 @@
 <body>
 
  <% if 1 + 8 == 2 %>
-     <h1> yes </h1>
+ <% a = [1,2,3,4] %>
+ <% b = a.each{|x| puts "number #{x}"}%>
+     <h1> b </h1>
  <% else %>
-      <h1> no </h1>
+     <h1> no </h1>
  <% end %>
 
 </body>
